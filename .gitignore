@@ -1,0 +1,18 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Weaviate data
+weaviate_data/
+
+# Docker
+*.log
+*.db
+
+# IDE files
+.idea/
+.vscode/
