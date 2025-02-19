@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "app/main.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "app/static/index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "env": {
+      "API_KEY": "your_api_key_here"
+    }
+  }
+  
