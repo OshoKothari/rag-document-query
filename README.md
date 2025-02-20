@@ -1,7 +1,3 @@
-Sure! Here's the updated **README.md** based on your requirements:
-
----
-
 # Retrieval Augmented Generation (RAG) System
 
 This project implements a Retrieval Augmented Generation (RAG) system using Weaviate as the vector database and Google Gemini API for generating answers based on document content. The system allows users to upload various types of documents (PDF, DOCX, TXT, JSON), query those documents, and receive relevant answers. Additionally, it supports JSON aggregation for enhanced data analysis and summarization.
