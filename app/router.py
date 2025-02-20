@@ -15,7 +15,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 client = weaviate.Client("http://localhost:8080")
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyAbinpYZm51dpu1D4k9kM9ceOpBctwhLdw"))
 model = genai.GenerativeModel('gemini-pro')
 
 class QueryRequest(BaseModel):
